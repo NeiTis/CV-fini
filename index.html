@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets\css\style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>CV Matthias</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="assets\img\logo.png">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="fullPageMenu" id="nav">
+
+        <div class="nav">
+            <p id="bienvenue">Bienvenue sur <br> mon CV numérique</p>
+            <ul>
+
+                <li><a href="#biographie" data-text="Mon état d'esprit" class="fermer">Mon état d'esprit</a></li>
+                <li><a href="#apropos" data-text="À propos de moi" class="fermer">À propos de moi</a></li>
+                <li><a href="#formation" data-text="Formations/Diplômes" class="fermer">Formations/Diplômes</a></li>
+                <li><a href="#competences" data-text="Compétences" class="fermer">Compétences</a></li>
+                <li><a href="#loisirs" data-text="Loisirs" class="fermer">Loisirs</a></li>
+                <li><a href="#portfolio" data-text="Portfolio" class="fermer">Portfolio</a></li>
+                <li><a href="#contact" data-text="Contact" class="fermer">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <span class="menuicon" id="toggle" onclick="menuToggle()"></span>
+    <!-- background -->
+    <section>
+        <div class="bg"></div>
+        <div class="bg bg2"></div>
+        <div class="bg bg3"></div>
+    </section>
+    <!-- Profil/citation -->
+    <section>
+        <h2 id="decouvrir">Mon état d'esprit</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card p-0">
+                        <div class="card-image"> <img src="assets\img\pdp.jpg" alt=""> </div>
+                        <div class="card-content d-flex flex-column align-items-center">
+                            <h4 class="pt-2">Rimbaut Matthias</h4>
+                            <h5>Concepteur Desingner UI</h5>
+                        </div>
+                    </div>
+                    <div id="citation">
+                        <p><q> Chaque difficulté rencontrée doit être l'occasion d'un nouveau progrès </q></p>
+                        <p class="espace">Kōhei Horikoshi</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- A propos -->
+    <section id="apropos" class="show">
+        <h2>à propos de moi</h2>
+        <div class="blockecrit boxstylé">
+
+            <p>
+                <span> Me concernant : </span> <br>
+
+                Amiens et alentours <br>
+                Permis B <br>
+                Portable : 06 72 87 61 62 <br>
+                Email : matthias.rimbaut@gmail.com <br>
+            </p>
+            <div class="reseau">
+                <a href="https://www.linkedin.com/in/matthias-rimbaut-794bb7193/"> <i
+                        class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.twitch.tv/neitisyt"> <i class="fab fa-twitch twitch"></i></a>
+                <a href="https://www.youtube.com/c/MattRMB"> <i class="fab fa-youtube youtube"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- Formation -->
+    <section id="formation" class="show">
+        <h2>Mes Diplômes/Formations</h2>
+        <div class="blockecrit boxstylé">
+
+            <p>
+                <span>2022/2021 </span> <br>
+                <i class="fas fa-code"></i>
+                Préparation au Titre professionel Concepteur Designer UI <br> (en cours) <br>
+                <span>2021 </span> <br>
+                <i class="fas fa-users"></i>
+                Certifié en Community Manager <br>
+                <span>2020/2019 </span> <br>
+                <i class="fas fa-network-wired"></i>
+                1 an dans le DUT MMI à Lens <br>
+                <span>2019/2018 </span> <br>
+                <i class="fas fa-book-open"></i>
+                Bac STI2D option SIN <br>
+            </p>
+
+        </div>
+    </section>
+
+    <!-- Competence -->
+    <section id="competences" class="show">
+        <h2>Compétences</h2>
+        <div class="blockecrit boxstylé encolumn ">
+            <div class="col1">
+                <label for="html">HTML 5</label>
+                <div class="progress">
+                    <div class="lesbarres"></div>
+                </div>
+                <label for="css">CSS</label>
+                <div class="progress">
+                    <div class="lesbarres"></div>
+                </div>
+                <label for="js">JavaScript</label>
+                <div class="progress">
+                    <div class="lesbarres2"></div>
+                </div>
+            </div>
+
+            <div class="col2">
+                <label for="Photoshop">Photoshop</label>
+                <div class="progress">
+                    <div class="lesbarres3"></div>
+                </div>
+                <label for="XD">XD</label>
+                <div class="progress">
+                    <div class="lesbarres2"></div>
+                </div>
+                <label for="Anglais">Anglais</label>
+                <div class="progress">
+                    <div class="lesbarres3"></div>
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+    </section>
+    <!-- Loisirs -->
+    <section id="loisirs" class="show">
+        <h2>Loisirs</h2>
+        <div class="blockecrit boxstylé">
+            <p>
+                <i class="fas fa-keyboard"></i>
+                Les jeux vidéos <br>
+                <i class="fab fa-twitch"></i>
+                Les lives sur internet via twitch <br>
+                <i class="fas fa-video"></i>
+                Création et montage vidéo <br>
+                <i class="fab fa-youtube"></i>
+                Partager mon contenu sur youtube <br>
+                <i class="fas fa-route"></i>
+                Les voyages <br>
+                <i class="fas fa-torii-gate"></i>
+                L'histoire du japon
+
+
+            </p>
+
+
+
+
+        </div>
+    </section>
+    <!-- Portefolio -->
+    <section id="portfolio" class="show">
+        <h2>Portefolio</h2>
+        <div class="blockecrit boxstylé contactalign">
+            <p>
+                <a href="#">Cliquez ici pour accéder à mon Portefolio</a>
+            </p>
+
+        </div>
+    </section>
+    <!-- Contact -->
+    <section id="contact" class="show">
+        <h2>Contact</h2>
+        <div class="blockecrit boxstylé contactalign">
+            <p>
+
+                <a href="mailto:neitis.contact@gmail.com">Cliquez ici pour envoyer le mail</a>
+
+
+            </p>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="assets\js\script.js"></script>
+</body>
+
+</html>
